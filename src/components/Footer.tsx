@@ -1,6 +1,8 @@
 import React from 'react';
 import { FacebookIcon, InstagramIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
 
+import cbkcLogo from '../img/CBKC.png'
+
 export function Footer() {
   return (
     <footer className="bg-blue-900 text-white py-8">
@@ -80,7 +82,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Família Bons Fluidos. Todos os
             direitos reservados.
           </p>
-          <img src="/src/img/CBKC.png" alt="CBKC Logo" className="mx-auto mt-2" />
+          <img src={cbkcLogo} alt="CBKC Logo" className="mx-auto mt-2" />
         </div>
       </div>
     </footer>
