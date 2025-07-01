@@ -1,39 +1,72 @@
 import React from "react";
 import FloatingSocialButtons from "../components/FloatingSocialButtons";
 
+import rosinha from "../../src/reprodutoresCachorros/Rosinha2.png"
+import sarita from "../../src/reprodutoresCachorros/Sugar.png"
+import sugar from "../../src/reprodutoresCachorros/Sugar.png"
+import lua from "../../src/reprodutoresCachorros/EVA.png"
+import potira from "../../src/reprodutoresCachorros/Potira2.png"
+import lizye from "../../src/reprodutoresCachorros/lizye.png"
+import papito from "../../src/reprodutoresCachorros/papito.png"
+import jessy from "../../src/reprodutoresCachorros/Jessy.png"
+import rihanna from "../../src/reprodutoresCachorros/Rihanna.png"
+import aiko from "../../src/reprodutoresCachorros/Aiko 2.png"
+import malibu from "../../src/reprodutoresCachorros/Malibu.png"
+import tucker from "../../src/reprodutoresCachorros/Tucker.png"
+import naomi from "../../src/reprodutoresCachorros/Naomi.png"
+import imperatriz from "../../src/reprodutoresCachorros/Imperatriz.png"
+import chika from "../../src/reprodutoresCachorros/Chika.png"
+import jolie from "../../src/reprodutoresCachorros/Jolie2.png"
+import lilibeth from "../../src/reprodutoresCachorros/Lilibeth.png"
+import savana from "../../src/reprodutoresCachorros/Savana.png"
+import rapunzel from "../../src/reprodutoresCachorros/Rapunzel.png"
+import giovanna from "../../src/reprodutoresCachorros/Rapunzel.png"
+import liege from "../../src/reprodutoresCachorros/Liege.png"
+import cloe from "../../src/reprodutoresCachorros/cloe.png"
+import lari from "../../src/reprodutoresCachorros/Lari.png"
+import nevada from "../../src/reprodutoresCachorros/Nevada.png"
+import bijuo from "../../src/reprodutoresCachorros/Bijuo.png"
+import penelope from "../../src/reprodutoresCachorros/Penélope.png"
+import berenice from "../../src/reprodutoresCachorros/Berenice.png"
+import maju from "../../src/reprodutoresCachorros/Maju.png"
+import perola from "../../src/reprodutoresCachorros/Pérola.png"
+import bob from "../../src/reprodutoresCachorros/Bob.png"
+import amora from "../../src/reprodutoresCachorros/Amora.png"
+import cavalier from "../../src/reprodutoresCachorros/Cavalier.png"
+
 const imagens = {
-  Rosinha: "/src/reprodutoresCachorros/Rosinha2.png",
-  Sarita: "/src/reprodutoresCachorros/Sarita2.png",
-  Sugar: "/src/reprodutoresCachorros/Sugar.png",
-  Lua: "/src/reprodutoresCachorros/EVA.png",
-  Potira: "/src/reprodutoresCachorros/Potira2.png",
-  Lizye: "/src/reprodutoresCachorros/lizye.png",
-  Papito: "/src/reprodutoresCachorros/papito.png",
-  Jessy: "/src/reprodutoresCachorros/Jessy.png",
-  Rihanna: "/src/reprodutoresCachorros/Rihanna.png",
-  Aiko: "/src/reprodutoresCachorros/Aiko 2.png",
-  Malibu: "/src/reprodutoresCachorros/Malibu.png",
-  Tucker: "/src/reprodutoresCachorros/Tucker.png",
-  Naomi: "/src/reprodutoresCachorros/Naomi.png",
-  Imperatriz: "/src/reprodutoresCachorros/Imperatriz.png",
-  Chika: "/src/reprodutoresCachorros/Chika.png",
-  Jolie: "/src/reprodutoresCachorros/Jolie2.png",
-  Lilibeth: "/src/reprodutoresCachorros/Lilibeth.png",
-  Savana: "/src/reprodutoresCachorros/Savana.png",
-  Rapunzel: "/src/reprodutoresCachorros/Rapunzel.png",
-  Giovanna: "/src/reprodutoresCachorros/Giovanna.png",
-  Liege: "/src/reprodutoresCachorros/Liege.png",
-  cloe: "/src/reprodutoresCachorros/cloe.png",
-  Lari: "/src/reprodutoresCachorros/Lari.png",
-  Nevada: "/src/reprodutoresCachorros/Nevada.png",
-  Bijuo: "/src/reprodutoresCachorros/Bijuo.png",
-  Penélope: "/src/reprodutoresCachorros/Penélope.png",
-  Berenice: "/src/reprodutoresCachorros/Berenice.png",
-  Maju: "/src/reprodutoresCachorros/Maju.png",
-  Pérola: "/src/reprodutoresCachorros/Pérola.png",
-  Bob: "/src/reprodutoresCachorros/Bob.png",
-  Amora: "/src/reprodutoresCachorros/Amora.png",
-  Cavalier: "/src/reprodutoresCachorros/Cavalier.png",
+  Rosinha: rosinha,
+  Sarita: sarita,
+  Sugar: sugar,
+  Lua: lua,
+  Potira: potira,
+  Lizye: lizye,
+  Papito: papito,
+  Jessy: jessy,
+  Rihanna: rihanna,
+  Aiko: aiko,
+  Malibu: malibu,
+  Tucker: tucker,
+  Naomi: naomi,
+  Imperatriz: imperatriz,
+  Chika: chika,
+  Jolie: jolie,
+  Lilibeth: lilibeth,
+  Savana: savana,
+  Rapunzel: rapunzel,
+  Giovanna: giovanna,
+  Liege: liege,
+  cloe: cloe,
+  Lari: lari,
+  Nevada: nevada,
+  Bijuo: bijuo,
+  Penélope: penelope,
+  Berenice: berenice,
+  Maju: maju,
+  Pérola: perola,
+  Bob: bob,
+  Amora: amora,
+  Cavalier: cavalier,
 };
 
 export default function Reprodutores() {
