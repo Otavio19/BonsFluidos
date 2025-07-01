@@ -18,7 +18,7 @@ export function ContactSection() {
             <h3 className="text-2xl font-semibold text-blue-800 mb-6">
               Entre em Contato
             </h3>
-            <form method="POST" action="https://formsubmit.co/ogsitescompletos@gmail.com">
+            <form method="POST" action="https://formsubmit.co/familiabonsfluidos@gmail.com">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 mb-2">
                   Nome
@@ -68,7 +68,7 @@ export function ContactSection() {
                 ></textarea>
               </div>
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:5173/"></input>
+              <input type="hidden" name="_next" value="https://familiabonsfluidos.com.br/"></input>
               <button
                 type="submit"
                 className="w-full bg-blue-800 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
