@@ -2,31 +2,37 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckIcon } from 'lucide-react';
 
+import corgi from '../../src/img/Corgi.png'
+import cavachon from '../../src/img/cavachon.png'
+import bichon from '../../src/img/bichon.jpg'
+import spitz from '../../src/img/Spitz-alemao.png'
+import cavalier from '../../src/img/Cavalier.jpg'
+
 const breeds = [
   {
     name: 'Corgi',
     description: 'Conheça o Corgi: o baixinho mais charmoso do pedaço! Com orelhas gigantes, bumbum fofo e um sorriso que derrete corações, o Corgi é puro amor e alegria em forma de patas curtinhas. Um verdadeiro rei da fofura esperando por você!',
-    image: '/src/img/Corgi.png'
+    image: corgi
   },
   {
     name: 'Cavachon',
     description: 'Cavachon: o pacotinho de doçura que faltava na sua vida! Mistura perfeita de carinho e charme, o Cavachon é peludinho, carinhoso e sempre pronto pra te fazer sorrir. Um companheiro leve, fofo e impossível de não amar!',
-    image: '/src/img/cavachon.png'
+    image: cavachon
   },
   {
     name: 'Bichon Frisé',
     description: 'Bichon Frisé: um floquinho de alegria com patas! Branquinho, fofinho e cheio de charme, o Bichon Frisé parece um ursinho de pelúcia que te dá amor de verdade. Companheiro ideal pra quem quer carinho e estilo num só doguinho!',
-    image: '/src/img/bichon.jpg'
+    image: bichon
   },
   {
     name: 'Spitz Alemão',
     description: 'Spitz Alemão: uma bola de pelos com atitude de estrela! Pequenininho, elegante e com uma juba digna de rei, o Spitz Alemão conquista com olhar esperto e personalidade marcante. Um mini leãozinho que vai roubar seu coração e os holofotes!',
-    image: '/src/img/Spitz-alemao.png'
+    image: spitz
   },
   {
     name: 'Cavalier',
     description: 'Cavalier King Charles Spaniel: Doçura e elegância que encantam! O Cavalier é o companheiro perfeito para quem busca um amigo leal, carinhoso e cheio de charme. Pronto para conquistar seu coração?',
-    image: '/src/img/Cavalier.jpg'
+    image: cavalier
   }
 ];
 
