@@ -80,7 +80,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Família Bons Fluidos. Todos os
             direitos reservados.
           </p>
-          <img src="/src/img/CBKC.avif" alt="CBKC Logo" className="mx-auto mt-2" />
+          <img src="/src/img/CBKC.png" alt="CBKC Logo" className="mx-auto mt-2" />
         </div>
       </div>
     </footer>

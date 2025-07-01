@@ -6,12 +6,12 @@ const breeds = [
   {
     name: 'Corgi',
     description: 'Conheça o Corgi: o baixinho mais charmoso do pedaço! Com orelhas gigantes, bumbum fofo e um sorriso que derrete corações, o Corgi é puro amor e alegria em forma de patas curtinhas. Um verdadeiro rei da fofura esperando por você!',
-    image: '/src/img/Corgi.jpg'
+    image: '/src/img/Corgi.png'
   },
   {
     name: 'Cavachon',
     description: 'Cavachon: o pacotinho de doçura que faltava na sua vida! Mistura perfeita de carinho e charme, o Cavachon é peludinho, carinhoso e sempre pronto pra te fazer sorrir. Um companheiro leve, fofo e impossível de não amar!',
-    image: '/src/img/cavachon.jpeg'
+    image: '/src/img/cavachon.png'
   },
   {
     name: 'Bichon Frisé',
@@ -21,7 +21,7 @@ const breeds = [
   {
     name: 'Spitz Alemão',
     description: 'Spitz Alemão: uma bola de pelos com atitude de estrela! Pequenininho, elegante e com uma juba digna de rei, o Spitz Alemão conquista com olhar esperto e personalidade marcante. Um mini leãozinho que vai roubar seu coração e os holofotes!',
-    image: '/src/img/Spitz alemao.jpg'
+    image: '/src/img/Spitz-alemao.png'
   },
   {
     name: 'Cavalier',

@@ -18,7 +18,7 @@ export function ContactSection() {
             <h3 className="text-2xl font-semibold text-blue-800 mb-6">
               Entre em Contato
             </h3>
-            <form>
+            <form method="POST" action="https://formsubmit.co/ogsitescompletos@gmail.com">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-gray-700 mb-2">
                   Nome
@@ -26,6 +26,7 @@ export function ContactSection() {
                 <input
                   type="text"
                   id="name"
+                  name="nome"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Seu nome"
                 />
@@ -37,6 +38,7 @@ export function ContactSection() {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="seu.email@exemplo.com"
                 />
@@ -48,6 +50,7 @@ export function ContactSection() {
                 <input
                   type="tel"
                   id="phone"
+                  name="telefone"
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="(00) 00000-0000"
                 />
@@ -58,11 +61,14 @@ export function ContactSection() {
                 </label>
                 <textarea
                   id="message"
+                  name="mensagem"
                   rows={4}
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Como podemos ajudar?"
                 ></textarea>
               </div>
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value="http://localhost:5173/"></input>
               <button
                 type="submit"
                 className="w-full bg-blue-800 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
