@@ -2,13 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckIcon } from 'lucide-react';
 
-import corgi from '../../src/img/Corgi.png'
-import cavachon from '../../src/img/cavachon.png'
+import corgi from '../../src/img/corgi.jpg'
+import cavachon from '../../src/img/cavachon.jpg'
 import bichon from '../../src/img/bichon.jpg'
 import spitz from '../../src/img/Spitz-alemao.png'
 import cavalier from '../../src/img/Cavalier.jpg'
+import poochon from '../../src/img/poochon.jpg'
 
 const breeds = [
+    {
+    name: 'Poochon',
+    description: 'Alegria e carinho em um só companheiro! O Poochon combina doçura, inteligência e um jeito encantador de conquistar toda a família. Pequeno no tamanho, enorme no carinho!',
+    image: poochon
+  },
   {
     name: 'Corgi',
     description: 'Conheça o Corgi: o baixinho mais charmoso do pedaço! Com orelhas gigantes, bumbum fofo e um sorriso que derrete corações, o Corgi é puro amor e alegria em forma de patas curtinhas. Um verdadeiro rei da fofura esperando por você!',
@@ -34,6 +40,7 @@ const breeds = [
     description: 'Cavalier King Charles Spaniel: Doçura e elegância que encantam! O Cavalier é o companheiro perfeito para quem busca um amigo leal, carinhoso e cheio de charme. Pronto para conquistar seu coração?',
     image: cavalier
   }
+  
 ];
 
 export function BreedsPreview() {
