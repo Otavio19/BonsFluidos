@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckIcon } from 'lucide-react';
 
-import corgi from '../../src/img/corgi.jpg'
+import corgi from '../../src/img/Corgi.png'
 import cavachon from '../../src/img/cavachon.jpg'
 import bichon from '../../src/img/bichon.jpg'
 import spitz from '../../src/img/Spitz-alemao.png'
