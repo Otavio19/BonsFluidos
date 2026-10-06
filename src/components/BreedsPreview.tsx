@@ -6,8 +6,9 @@ import corgi from '../../src/img/Corgi.png'
 import cavachon from '../../src/img/cavachon.jpg'
 import bichon from '../../src/img/bichon.jpg'
 import spitz from '../../src/img/Spitz-alemao.png'
-import cavalier from '../../src/img/Cavalier.jpg'
+import cavalier from '../../src/img/cavalier.jpg'
 import poochon from '../../src/img/poochon.jpg'
+import cavapoo from '../../src/img/cavapoo.jpg'
 
 const breeds = [
     {
@@ -39,7 +40,13 @@ const breeds = [
     name: 'Cavalier',
     description: 'Cavalier King Charles Spaniel: Doçura e elegância que encantam! O Cavalier é o companheiro perfeito para quem busca um amigo leal, carinhoso e cheio de charme. Pronto para conquistar seu coração?',
     image: cavalier
+  },
+  {
+    name: 'Cavapoo',
+    description: 'Cavapoo: doçura, alegria e muito charme em um só companheiro! Carinhoso, inteligente e cheio de personalidade, o Cavapoo conquista com seu jeitinho brincalhão e seu olhar encantador. Um amigo perfeito para toda a família!',
+    image: cavapoo
   }
+ 
   
 ];
 
